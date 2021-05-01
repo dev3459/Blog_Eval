@@ -1,0 +1,38 @@
+#containerConnexion {
+    background-image: radial-gradient(circle 700px at top right, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    max-width: 60rem;
+    width: 100%;
+    height: 100vh;
+    max-height: 80vh;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: black 0 0 4px 2px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 200px;
+    justify-content: center;
+    height: 100%;
+}
+
+form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
+    color: white;
+}
+
+form input{
+    padding: 0.5rem;
+    margin: 1rem;
+    outline: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+#menu{
+    background-image: radial-gradient(0, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    width: 95%;
+    margin: 1rem auto;
+    box-shadow: black 0 0 4px 2px;
+    border-radius: 30px;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul li{
+    margin: 1rem 0;
+}
+
+#menu ul li a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(3, 191, 208, 1);
+    transition: 0.2s background-color linear;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#menu ul li a:hover{
+    background-color: rgba(30, 152, 163, 1);
+}

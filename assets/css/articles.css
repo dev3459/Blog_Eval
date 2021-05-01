@@ -1,0 +1,100 @@
+#btnAddArticle{
+    font-size: 1.5rem;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+#btnAddArticle a{
+    padding: 1rem;
+    background-color: rgba(3, 191, 208, 1);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 3px;
+    transition: background-color 0.3s linear;
+}
+
+#btnAddArticle a:hover{
+    background-color: rgba(30, 152, 163, 1);
+}
+
+.articles{
+    width: 100%;
+    font-size: 1.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.articleSelect{
+    color: blue;
+    width: 90%;
+    margin: 0.5rem auto 1rem auto;
+    max-height: 15rem;
+    min-height: 15rem;
+    overflow-y: auto;
+    padding: 1rem;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: black 0 0 4px 2px;
+    transition: background-color 0.3s linear;
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.articleSelect:hover{
+    background-color: #d7d7d7;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.paraph{
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    height: 60%;
+    overflow-y: auto;
+    color: black;
+}
+
+span.author{
+    display: block;
+    text-align: right;
+    padding: 0.4rem;
+}
+
+.voirPlus{
+    color: blue;
+}
+
+.close{
+    color: red;
+    font-size: 1.6rem;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    padding: 0.6rem;
+    transition: background-color 0.3s linear;
+}
+
+.close:hover{
+    background-color: red;
+    color: yellow;
+    border-radius: 10px;
+}
+
+hr{
+    margin: 1rem 0 0.5rem 0;
+    color: black;
+}
