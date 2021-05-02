@@ -37,6 +37,7 @@ class ArticleController {
             echo "<div id='error'>Merci de respecter la limite du titre</div>";
         }else{
             if(isset($form['content'], $form['user'])) {
+
                 $content = htmlentities($form['content']);
                 $user_fk = intval($form['user']);
                 $title = htmlentities($form['title']);

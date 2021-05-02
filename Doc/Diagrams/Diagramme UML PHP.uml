@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Model\Entity\Comment</OriginalElement>
+  <nodes>
+    <node x="-150.90909090909088" y="153.0">\Model\Entity\Comment</node>
+    <node x="-650.9090909090909" y="537.0">\Model\DB</node>
+    <node x="306.0909090909091" y="315.0">\Controller\UserController</node>
+    <node x="-366.9090909090909" y="337.0">\Model\Manager\UserManager</node>
+    <node x="-292.9090909090909" y="-280.0">\Model\Entity\Article</node>
+    <node x="-462.6590909090909" y="153.0">\Model\Manager\Traits\ManagerTrait</node>
+    <node x="-650.9090909090909" y="-280.0">\Model\Entity\User</node>
+    <node x="-650.9090909090909" y="282.0">\Model\Manager\ArticleManager</node>
+    <node x="141.09090909090912" y="259.0">\Controller\ArticleController</node>
+    <node x="194.34090909090912" y="153.0">\Controller\Traits\RenderViewTrait</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Model\Manager\ArticleManager" target="\Model\Manager\Traits\ManagerTrait" relationship="REALIZATION">
+      <point x="0.0" y="-105.0" />
+      <point x="-518.9090909090909" y="257.0" />
+      <point x="-400.1590909090909" y="257.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="\Controller\ArticleController" target="\Controller\Traits\RenderViewTrait" relationship="REALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="213.59090909090912" y="234.0" />
+      <point x="295.3409090909091" y="234.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="\Model\Manager\UserManager" target="\Model\Manager\Traits\ManagerTrait" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="-281.4090909090909" y="257.0" />
+      <point x="-400.1590909090909" y="257.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="\Controller\UserController" target="\Controller\Traits\RenderViewTrait" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="377.0909090909091" y="234.0" />
+      <point x="295.3409090909091" y="234.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.85" showDependencies="false" x="-30.294117647058783" y="244.17647058823536" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

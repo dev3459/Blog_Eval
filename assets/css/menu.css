@@ -15,6 +15,12 @@
     margin: 1rem 0;
 }
 
+#menu ul li h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
 #menu ul li a{
     padding: 1rem;
     font-size: 1.5rem;
